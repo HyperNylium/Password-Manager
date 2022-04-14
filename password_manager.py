@@ -3,9 +3,9 @@ import sqlite3
 from hashlib import sha256
 
 
-ADMIN_PASSWORD = "YOUR OWN PASSWORD"
+ADMIN_PASSWORD = "1234"
 
-connect = input("What is your password?\n")
+connect = input("What is your password? (1234 but put your own password)\n")
 
 while connect != ADMIN_PASSWORD:
     connect = input("What is your password?\n")
